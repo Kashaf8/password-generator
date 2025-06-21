@@ -1,0 +1,147 @@
+*{
+    margin:0px;
+    padding: 0px;
+box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to right bottom,#bc73be,#359092);
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+.container{
+    margin-left: 30rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px #909090,8px 8px 8px;
+    width: 28%;
+  height: 65%;
+}
+h2{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.inputsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputtext{
+width: 100%;
+margin: auto;
+height: 40px;
+margin-top: 18px;
+font-size: large;
+}
+.input-wrapper{
+    width: 80%;
+    margin: auto;
+    margin: auto;
+    position: relative;
+}
+.input-wrapper img{
+    position: absolute;
+    top: 26px;
+    right: 8px;
+    cursor: pointer;
+    color: #bc73be;
+}
+/* ------------- */
+.input-wrapper {
+  position: relative;
+  width: 290px;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 10px 40px 10px 10px;
+  box-sizing: border-box;
+}
+
+/* Tooltip wrapper */
+.tooltip-wrapper {
+  position: absolute;
+  right: 2px;
+  top: 0%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* Icon style */
+.copy-icon {
+  font-size: 18px;
+}
+
+/* Tooltip text */
+.tooltip-text {
+  visibility: hidden;
+  background-color:whitesmoke;
+  color: #bc73be;
+  text-align: center;
+  border-radius: 5px;
+  padding: 4px 8px;
+  position: absolute;
+  top: -5px;
+  right: 0;
+  white-space: nowrap;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Show tooltip on hover */
+.tooltip-wrapper:hover .tooltip-text {
+  visibility: visible;
+  opacity: 2;
+}
+
+.inputrange{
+ width: 80%;
+ margin: auto;
+ margin-top: 3px; 
+ height: 20px;  
+background: #ff5722;
+cursor: pointer;
+}
+.code{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   width: 80%;
+   margin: auto;
+   margin-top: 2px;
+    color: whitesmoke;
+font-size: large;
+}
+.checkbox{
+    margin-top: 4px;
+}
+.buttons{
+    font-size: larger;
+      display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   width: 80%;
+   margin: auto;
+   color: whitesmoke;
+   margin-bottom: 10px;
+ }
+ .Generate-butn{
+   padding: 7px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   width: 80%;
+   height: 40px;
+   margin: auto;
+   color:whitesmoke;
+   background-color:#359092;
+   font-size: large;
+  margin-top: 29px;
+  border: 1px solid #359092;
+  cursor: pointer;
+ }
+ 
